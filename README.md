@@ -37,7 +37,7 @@
 3.  Напиши в терминале `npm install` для установки всех зависимостей.
 4.  Напишите в терминале команду `npm run dev`.
 
-Или вы можете просто зайти на [сайт](kriswis.github.io/TeleWorks/), загруженный на Github Pages.
+Или вы можете просто зайти на [сайт](https://evgeniywis.github.io/TeleWorks/), загруженный на Github Pages.
 
 ---
 
