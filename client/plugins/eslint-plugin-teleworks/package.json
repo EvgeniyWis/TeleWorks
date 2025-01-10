@@ -7,7 +7,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "kriswis",
+  "author": "evgeniywis",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
