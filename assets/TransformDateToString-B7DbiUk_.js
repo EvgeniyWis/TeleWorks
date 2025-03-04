@@ -1,1 +1,0 @@
-const e=(t,g=!0)=>g?`${t.getDate()<10?"0":""}${t.getDate()}.${t.getMonth()<10?"0":""}${t.getMonth()}.${String(t.getFullYear()).slice(2)}, ${t.getHours()<10?"0":""}${t.getHours()}:${t.getMinutes()<10?"0":""}${t.getMinutes()}`:`${t.getDate()<10?"0":""}${t.getDate()}.${t.getMonth()<10?"0":""}${t.getMonth()}.${String(t.getFullYear()).slice(2)}`;export{e as T};

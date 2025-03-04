@@ -1,1 +1,0 @@
-import{r as o,j as s}from"./react-CA4AiUJV.js";const a="_CustomItemBadge_16to5_1",r={CustomItemBadge:a},c=o.memo(({className:t,firstTitle:e,secondTitle:m})=>s.jsxs("span",{className:`${r.CustomItemBadge} ${t}`,children:[e," ",s.jsx("span",{children:m})]}));export{c as C};

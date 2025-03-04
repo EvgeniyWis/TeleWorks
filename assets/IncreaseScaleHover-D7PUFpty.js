@@ -1,1 +1,0 @@
-import{r as a,j as c}from"./react-GnO0LmOb.js";const o="_IncreaseScaleHover_1lo1i_1",t={IncreaseScaleHover:o},l=a.memo(({children:e,className:r,onClick:s})=>c.jsx("div",{onClick:s,className:`${t.IncreaseScaleHover} ${r}`,children:e}));export{l as I};

@@ -1,1 +1,0 @@
-const e=location.port;let t;e=="6006"?t="":t="/TeleWorks";const a=t;window.matchMedia=window.matchMedia||function(){return{matches:!1,addListener:function(){},removeListener:function(){}}};const i=window.matchMedia("(max-width: 1200px)"),o=window.matchMedia("(max-width: 600px)");export{a as U,o as m,i as t};
