@@ -13,7 +13,7 @@ import { ErrorBoundary } from "react-error-boundary";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <ErrorBoundary fallback={<ErrorPage />}>
     <Provider store={store}>
-      <BrowserRouter basename="/TeleWorks/">
+      <BrowserRouter basename="/TeleWorks">
         <ScrollToTop />
         <App />
       </BrowserRouter>
