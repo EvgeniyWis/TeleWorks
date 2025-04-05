@@ -9,25 +9,6 @@
     <meta name="author" content="Некрасов Евгений" />
     <link rel="icon" href="/TeleWorks/assets/favicon-OtZmEqm8.svg" />
     <title>TeleWorks</title>
-
-    <script defer type="text/javascript">
-      (function (l) {
-        if (l.search[1] === "/") {
-          var decoded = l.search
-            .slice(1)
-            .split("&")
-            .map(function (s) {
-              return s.replace(/~and~/g, "&");
-            })
-            .join("?");
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash,
-          );
-        }
-      })(window.location);
-    </script>
     <script async type="module" crossorigin src="/TeleWorks/assets/index-7LQkQqxp.js"></script>
     <link rel="modulepreload" crossorigin href="/TeleWorks/assets/@babel-13fjUkWY.js">
     <link rel="modulepreload" crossorigin href="/TeleWorks/assets/react-C3EGSwTV.js">
@@ -90,5 +71,15 @@
     Kwork - https://kwork.ru/user/evgeniy_Wis
     Предоставляю услуги по разработке Telegram ботом и сайтов с нуля.
     -->
+
+    <script>
+      const redirect = sessionStorage.getItem("redirect");
+      if (redirect) {
+        sessionStorage.removeItem("redirect");
+        if (redirect !== window.location.pathname) {
+          window.history.replaceState(null, null, redirect);
+        }
+      }
+    </script>
   </body>
 </html>
