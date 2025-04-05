@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Перенаправление...</title>
+    <script>
+      // Получаем путь после домена
+      const pathSegmentsToKeep = 1;
+      const l = window.location;
+      const lPath = l.pathname;
+
+      // Проверяем, начинается ли путь с /TeleWorks
+      const segment = "/TeleWorks";
+      const hasSegment = lPath.startsWith(segment);
+
+      // Формируем новый путь
+      const fullPath = hasSegment ? lPath : segment + lPath;
+
+      // Сохраняем путь для перенаправления
+      sessionStorage.setItem("redirect", fullPath);
+
+      // Перенаправляем на корневой путь
+      window.location.href = l.origin + segment;
+    </script>
+  </head>
+  <body>
+    Перенаправление...
+  </body>
+</html>
