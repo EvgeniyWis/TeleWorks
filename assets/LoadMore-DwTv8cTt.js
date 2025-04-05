@@ -1,0 +1,1 @@
+import{r as t,j as s}from"./react-C3EGSwTV.js";import{B as a}from"./app-routes-BVBrxdUJ.js";const e=t.memo(({type:o,className:r})=>s.jsx(a,{type:o,className:r,text:"Загрузить еще"}));e.displayName="LoadMore";export{e as L};
